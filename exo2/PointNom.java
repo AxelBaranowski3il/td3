@@ -4,6 +4,11 @@ public class PointNom extends Point {
 
   private String nom;
 
+  public PointNom(int x, int y, String nom) {
+    super.setPoint(x, y);
+    this.nom = nom;
+  }
+
   public void setPointNom(int x, int y, String nom) {
     super.setPoint(x, y);
     this.nom = nom;
