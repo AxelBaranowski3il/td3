@@ -7,6 +7,7 @@ public class Carre extends Forme {
     this.longueur = longueur;
   }
 
+  @Override
   public double getSurface() {
     return longueur * longueur;
   }

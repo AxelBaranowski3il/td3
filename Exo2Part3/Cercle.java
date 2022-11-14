@@ -10,7 +10,8 @@ public class Cercle extends Forme {
     this.longueur = longueur;
   }
 
+  @Override
   public double getSurface() {
-    return Math.PI * longueur;
+    return Math.PI * longueur * longueur;
   }
 }
